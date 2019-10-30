@@ -1,0 +1,31 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    padding: 50px;
+    transform: translate(-50%,-50%);
+    position:absolute;
+    top: 50%;
+    left: 50%;
+
+}
+img:hover{
+    opacity: 0;
+
+}
+.box{
+    width: 250px;
+    height: 250px;
+    background: #e70505;
+    margin-top: 30px;
+    border-style: solid; /* Required to animate border width */
+    border-color: #cea140;
+    position:relative;
+    
+}
+
+
+  
+
+

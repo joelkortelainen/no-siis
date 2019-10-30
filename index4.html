@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="styles2.css">
+<meta charset="UTF-8">
+<title>Example of jQuery Multiple Properties Animation</title>
+<script src="jquery-3.4.1.js"></script>
+<style type="text/css">
+</style>
+<script type="text/javascript">
+$(document).ready(function(){
+    $("button").click(function(){
+        $(".box")
+            .animate({width: "300px"})
+            .animate({height: "300px"})
+            .animate({marginLeft: "150px"})
+            .animate({borderWidth: "10px"})
+            .animate({opacity:0.5 });
+    });
+});
+</script>
+</head>
+<body>
+    <button type="button">Suurenna laatikko</button>
+    <button type="button">Pienennä laatikko</button>
+    <div class="box"><img src="draven.JPG" alt="draven.JPG"></div>
+    <div class="overlay">
+    <div style="background-image: url('isodraven.JPG;');">
+</body>
+</html>                            
