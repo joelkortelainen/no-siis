@@ -1,0 +1,30 @@
+.box{
+    width: 330px;
+    height: 236px;
+    background: #95da8d;
+    margin-top: 30px;
+    position: relative;
+}
+.box2{
+
+     width: 330px;
+    height: 100px;
+    background: #95da8d;
+    margin-top: 30px;
+    position: relative;
+}
+.box3{
+    width: 100px;
+    height: auto;
+    background: #bbeebb;
+    margin-top: 30px;
+    position: relative;
+}
+#container {
+    display: table;
+    width: 100%;
+}
+#container > div {
+    display: table-cell;
+    width: 2%;
+}
