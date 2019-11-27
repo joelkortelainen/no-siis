@@ -1,0 +1,33 @@
+
+body {
+    background-image: url("images/taustakuva.jpg");
+  }
+  h1 {
+    text-align: center;
+    color: black;
+  }
+  h2 {
+    text-align: center;
+    color:red;
+  }
+  p {
+    text-align: center;
+    color:black;
+  }
+  .img-container {
+    text-align: center;
+  }
+  a {
+    text-align: center;
+  
+  }
+
+
+
+
+
+
+
+
+
+
